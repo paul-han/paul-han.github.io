@@ -19,7 +19,6 @@ html {
 body {
   background: #FDFDFD;
   height: 800px;
-
 }
 
 /*
@@ -385,10 +384,10 @@ h2 {
   font-family: 'Raleway', sans-serif;
   font-weight: 200;
   display: inline-block;
-  font-size: 11px;
-   line-height: 13px;
+  font-size: 12px;
+   line-height: 16px;
   text-align: center;
-  margin-top: 12px;
+  margin-top: 14px;
 }
 
 .iphone {
@@ -398,11 +397,11 @@ h2 {
 }
 
 .iphone.desktop {
-  display: block !important;
+  display: block;
 }
 
 .iphone.mobile {
-  display: none !important;
+  display: none;
 }
 
 .featured__wrap {
@@ -415,7 +414,7 @@ h2 {
 .elephant {
   position: absolute;
   display: block;
-  width: 60px;
+  width: 70px;
   top: -50px;
   right: 0px;
 
@@ -424,9 +423,9 @@ h2 {
 .trunk {
   position: absolute;
   display: block;
-  width: 13px;
-  top: -32px;
-  right: -1px;
+  width: 16px;
+  top: -30px;
+  right: -2px;
 }
 
 .swingSmall {
@@ -456,25 +455,17 @@ li {
   cursor: pointer;
 }
 
+li a {
+  color: #000;
+  text-decoration: none;
+}
+
 li:hover {
-  color: blue;
+  text-decoration: underline;
 }
-
-.connect {
-  opacity: 0.5;
-  position: absolute;
-  bottom: 15px;
-  left: 50px;
-  font-size: 17px;
-}
-
-.connect .fa {
-    margin-right: 15px;
-}
-
 
 .badge__img {
-  width: 150px;
+  width: 155px;
   margin: 0 auto;
   position: relative;
   display:block;
@@ -569,7 +560,7 @@ li:hover {
   .elephant {
     position: absolute;
     display: block;
-    width: 60px;
+    width: 70px;
     top: -50px;
     right: 0px;
 
@@ -578,9 +569,9 @@ li:hover {
   .trunk {
     position: absolute;
     display: block;
-    width: 13px;
-    top: -32px;
-    right: -1px;
+    width: 16px;
+    top: -30px;
+    right: -2px;
   }
 
   .swingSmall {
@@ -619,11 +610,11 @@ li:hover {
   }
 
   .iphone.desktop {
-    display: none !important;
+    display: none;
   }
 
   .iphone.mobile {
-    display: block !important;
+    display: block;
   }
 
   .badge__img {
