@@ -397,6 +397,14 @@ h2 {
  margin-left: -50px;
 }
 
+.iphone.desktop {
+  display: block;
+}
+
+.iphone.mobile {
+  display: none;
+}
+
 .featured__wrap {
   display: block;
   position: relative;
@@ -515,6 +523,7 @@ li:hover {
     padding: 0px;
     font-size: 31px;
     margin-bottom: 5px;
+    margin-top: 140px;
   }
 
   .quote {
@@ -607,6 +616,14 @@ li:hover {
 
   li:hover {
     color: blue;
+  }
+
+  .iphone.desktop {
+    display: none !important;
+  }
+
+  .iphone.mobile {
+    display: block;
   }
 
   .badge__img {
