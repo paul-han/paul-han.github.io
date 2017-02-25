@@ -398,11 +398,11 @@ h2 {
 }
 
 .iphone.desktop {
-  display: block;
+  display: block !important;
 }
 
 .iphone.mobile {
-  display: none;
+  display: none !important;
 }
 
 .featured__wrap {
@@ -623,7 +623,7 @@ li:hover {
   }
 
   .iphone.mobile {
-    display: block;
+    display: block !important;
   }
 
   .badge__img {
