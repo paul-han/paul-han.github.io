@@ -782,6 +782,7 @@ p {
   margin: 0px;
   width: 220px;
   opacity: 0.7;
+  margin: 0 auto;
 }
 
 h2 {
@@ -794,6 +795,7 @@ h2 {
 
 .quote {
   text-align: center;
+  width: 100%;
 }
 
 .quote p {
@@ -934,6 +936,175 @@ li:hover {
   text-align: center;
 }
 
+.slider {
+  width: 250px;
+  height: 200px;
+  overflow: hidden;
+  margin: 0px;
+}
+
+.slider p {
+  width: 100%;
+  margin-top: 70px;
+}
+
+.slide {
+  width: 250px;
+  height: 200px;
+  float: left;
+  position: relative;
+}
+
+.slide-holder {
+  width: 250%;
+  position: relative;
+  left: 0;
+  -webkit-animation: scroller 15s infinite;
+          animation: scroller 15s infinite;
+}
+
+@-webkit-keyframes scroller {
+  43% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  45% {
+    -webkit-transform: translateX(-250px);
+            transform: translateX(-250px);
+  }
+  48% {
+    -webkit-transform: translateX(-250px);
+            transform: translateX(-250px);
+  }
+  50% {
+    -webkit-transform: translateX(-250px);
+            transform: translateX(-250px);
+  }
+  52% {
+    -webkit-transform: translateX(-250px);
+            transform: translateX(-250px);
+  }
+  55% {
+    -webkit-transform: translateX(-250px);
+            transform: translateX(-250px);
+  }
+  60% {
+    -webkit-transform: translateX(-250px);
+            transform: translateX(-250px);
+  }
+  63% {
+    -webkit-transform: translateX(-250px);
+            transform: translateX(-250px);
+  }
+  65% {
+    -webkit-transform: translateX(-250px);
+            transform: translateX(-250px);
+  }
+  70% {
+    -webkit-transform: translateX(-250px);
+            transform: translateX(-250px);
+  }
+  75% {
+    -webkit-transform: translateX(-250px);
+            transform: translateX(-250px);
+  }
+  80% {
+    -webkit-transform: translateX(-250px);
+            transform: translateX(-250px);
+  }
+  82% {
+    -webkit-transform: translateX(-250px);
+            transform: translateX(-250px);
+  }
+  85% {
+    -webkit-transform: translateX(-250px);
+            transform: translateX(-250px);
+  }
+  90% {
+    -webkit-transform: translateX(-250px);
+            transform: translateX(-250px);
+  }
+  95% {
+    -webkit-transform: translateX(-250px);
+            transform: translateX(-250px);
+  }
+  100% {
+    -webkit-transform: translateX(-250px);
+            transform: translateX(-250px);
+  }
+}
+
+@keyframes scroller {
+  43% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  45% {
+    -webkit-transform: translateX(-250px);
+            transform: translateX(-250px);
+  }
+  48% {
+    -webkit-transform: translateX(-250px);
+            transform: translateX(-250px);
+  }
+  50% {
+    -webkit-transform: translateX(-250px);
+            transform: translateX(-250px);
+  }
+  52% {
+    -webkit-transform: translateX(-250px);
+            transform: translateX(-250px);
+  }
+  55% {
+    -webkit-transform: translateX(-250px);
+            transform: translateX(-250px);
+  }
+  60% {
+    -webkit-transform: translateX(-250px);
+            transform: translateX(-250px);
+  }
+  63% {
+    -webkit-transform: translateX(-250px);
+            transform: translateX(-250px);
+  }
+  65% {
+    -webkit-transform: translateX(-250px);
+            transform: translateX(-250px);
+  }
+  70% {
+    -webkit-transform: translateX(-250px);
+            transform: translateX(-250px);
+  }
+  75% {
+    -webkit-transform: translateX(-250px);
+            transform: translateX(-250px);
+  }
+  80% {
+    -webkit-transform: translateX(-250px);
+            transform: translateX(-250px);
+  }
+  82% {
+    -webkit-transform: translateX(-250px);
+            transform: translateX(-250px);
+  }
+  85% {
+    -webkit-transform: translateX(-250px);
+            transform: translateX(-250px);
+  }
+  90% {
+    -webkit-transform: translateX(-250px);
+            transform: translateX(-250px);
+  }
+  95% {
+    -webkit-transform: translateX(-250px);
+            transform: translateX(-250px);
+  }
+  100% {
+    -webkit-transform: translateX(-250px);
+            transform: translateX(-250px);
+  }
+}
+
 
 @media only screen and (max-width: 768px) {
   body {
@@ -1064,6 +1235,10 @@ li:hover {
 
   li:last-of-type {
     margin-right: 0px;
+  }
+
+  .slider {
+    margin: 0px auto;
   }
 
   li:hover {
