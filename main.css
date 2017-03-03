@@ -104,46 +104,56 @@ textarea {
    @-webkit-keyframes swingSmall {
        20% {
            -webkit-transform: rotate3d(0, 0, 1, 5deg);
-           transform: rotate3d(0, 0, 1, 5deg)
+           transform: rotate3d(0, 0, 1, 5deg);
+           transform-style: preserve-3d;
        }
        40% {
            -webkit-transform: rotate3d(0, 0, 1, -4deg);
-           transform: rotate3d(0, 0, 1, -4deg)
+           transform: rotate3d(0, 0, 1, -4deg);
+           transform-style: preserve-3d;
        }
        60% {
            -webkit-transform: rotate3d(0, 0, 1, 3deg);
-           transform: rotate3d(0, 0, 1, 3deg)
+           transform: rotate3d(0, 0, 1, 3deg);
+           transform-style: preserve-3d;
        }
        80% {
            -webkit-transform: rotate3d(0, 0, 1, -2deg);
-           transform: rotate3d(0, 0, 1, -2deg)
+           transform: rotate3d(0, 0, 1, -2deg);
+           transform-style: preserve-3d;
        }
        to {
            -webkit-transform: rotate3d(0, 0, 1, 0deg);
-           transform: rotate3d(0, 0, 1, 0deg)
+           transform: rotate3d(0, 0, 1, 0deg);
+           transform-style: preserve-3d;
        }
    }
 
    @keyframes swingSmall {
        20% {
            -webkit-transform: rotate3d(0, 0, 1, 5deg);
-           transform: rotate3d(0, 0, 1, 5deg)
+           transform: rotate3d(0, 0, 1, 5deg);
+           transform-style: preserve-3d;
        }
        40% {
            -webkit-transform: rotate3d(0, 0, 1, -4deg);
-           transform: rotate3d(0, 0, 1, -4deg)
+           transform: rotate3d(0, 0, 1, -4deg);
+           transform-style: preserve-3d;
        }
        60% {
            -webkit-transform: rotate3d(0, 0, 1, 3deg);
-           transform: rotate3d(0, 0, 1, 3deg)
+           transform: rotate3d(0, 0, 1, 3deg);
+           transform-style: preserve-3d;
        }
        80% {
            -webkit-transform: rotate3d(0, 0, 1, -2deg);
-           transform: rotate3d(0, 0, 1, -2deg)
+           transform: rotate3d(0, 0, 1, -2deg);
+           transform-style: preserve-3d;
        }
        to {
            -webkit-transform: rotate3d(0, 0, 1, 0deg);
-           transform: rotate3d(0, 0, 1, 0deg)
+           transform: rotate3d(0, 0, 1, 0deg);
+           transform-style: preserve-3d;
        }
    }
 
@@ -338,6 +348,7 @@ textarea {
   left: 50%;
   position: absolute;
   margin-top: -20px;
+  transform-style: preserve-3d;
 }
 
 .featured__info {
